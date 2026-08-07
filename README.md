@@ -166,7 +166,7 @@ Step 9:
 12. Capture a screenshot of the customized homepage.
 ```
 
-Screenshot: ![alt text](image-10.png)
+Screenshot: ![alt text](image-14.png)
 
 <h1>Project Structure</h1>
 
