@@ -1,6 +1,6 @@
 
 # client-server-week02-laravel-setup
-Ravien C. Ongkiko - BSIT3B
+Ravien C. Ongkiko - BSIT-3B
 
 <h2>INTRODUCTION<h2>
 <h1>Brief Overview of Laravel</h1>
@@ -120,7 +120,7 @@ Step 6:
 5. Capture a screenshot showing the project opened in Visual Studio Code.
 ```
 
-Screenshot: ![VS Code Project](screenshots/laravel-project.png)
+Screenshot: ![alt text](image-6.png)
 
 ```text
 Step 7:
@@ -134,8 +134,8 @@ or
 5. laravel new hello-laravel
 6. Wait for the installation process to complete successfully.
 ```
-![Laravel Project](screenshots/laravel-project-2.png)
-![Laravel Project 2](screenshots/laravel-project-22.png)'
+![alt text](image-7.png)
+![alt text](image-8.png)
 
 ```text
 Step 8:
@@ -148,7 +148,7 @@ Step 8:
 ```
 Screenshot:
 
-![PHP Artisan Serve](screenshots/artisan-serve.png)
+![alt text](image-9.png)
 
 ```text
 Step 9: 
@@ -166,7 +166,7 @@ Step 9:
 12. Capture a screenshot of the customized homepage.
 ```
 
-Screenshot: ![Laravel Homepage](screenshots/hello-laravel-homepage.png)
+Screenshot: ![alt text](image-10.png)
 
 <h1>Project Structure</h1>
 
@@ -196,40 +196,34 @@ The `database/` folder contains files related to database management, including 
 
 <h1>Problems Encountered</h1>
 
-1. Laravel Installer Command Not Found
+1. MySQL Command Not Found
 
-After installing Laravel, the `laravel` command was not recognized in the Command Prompt. This made it impossible to create a new Laravel project using the Laravel Installer until the installation was properly configured.
+Although MySQL was successfully installed, the mysql command was not recognized in the Command Prompt. This prevented the MySQL client from being accessed directly through the terminal, making it difficult to verify the installation and execute MySQL commands.
 
-![Laravel Version](screenshots/laravel-version.png)
+![alt text](image-11.png)
 
-The issue was resolved by ensuring that the Laravel Installer was installed correctly through Composer and that Composer's global vendor/bin directory was added to the system's PATH environment variable. After restarting the Command Prompt, the laravel -V command successfully displayed the installed Laravel version.
+The issue was resolved by locating the MySQL installation folder and adding its bin directory (e.g., C:\Program Files\MySQL\MySQL Server 8.0\bin) to the system's PATH environment variable. After saving the changes, the Command Prompt was closed and reopened to apply the updated environment variables. Running the mysql --version command then successfully displayed the installed MySQL version, confirming that MySQL was correctly configured and accessible from the command line.
 
-2. Missing PHP Zip Extension
+2. Difficulty Choosing the Correct PHP Installer
 
-While creating the Laravel project, the installation failed because the required PHP Zip extension was not enabled. As a result, Composer could not extract the downloaded packages until the extension was activated.
+When downloading PHP from the official website, there were multiple versions, architectures, and build types available, making it difficult to determine which installer was compatible with the system and suitable for Laravel development. This caused confusion during the installation process and delayed the setup of the development environment.
 
-![Laravel Project](screenshots/laravel-project.png)
+![alt text](image-12.png)
 
-The problem was fixed by enabling the PHP Zip extension in the php.ini configuration file. After saving the changes and restarting the terminal, the Laravel project was created successfully using Composer.
+The issue was resolved by reviewing the PHP installation requirements and selecting the appropriate version for the operating system. A 64-bit (x64), Non-Thread Safe (NTS) ZIP package was downloaded since it is the recommended version for most Windows systems and Laravel development. After extracting the files, the PHP directory was added to the system's PATH environment variable. The installation was verified by running the php -v command in the Command Prompt, which successfully displayed the installed PHP version, confirming that PHP was correctly installed and configured.
 
-3. Firewall Blocking the Local Development Server
+3. Incorrect Working Directory
 
-When running `php artisan serve`, the Laravel development server started successfully, but the application could not be accessed through the web browser because Windows Firewall blocked the local server connection.
+While running Laravel commands, an error occurred because the Command Prompt was not opened inside the Laravel project folder. As a result, commands such as php artisan serve could not be executed.
 
-![PHP Artisan Serve](screenshots/artisan-serve.png)
-![Laravel Homepage](screenshots/hello-laravel-homepage.png)
 
-The issue was resolved by allowing PHP or the Laravel development server through Windows Firewall. Once permission was granted, the local server became accessible, and the application loaded successfully in the browser at http://127.0.0.1:8000.
+![alt text](image-13.png)
+
+The issue was resolved by navigating to the correct project directory using the cd command before running any Laravel commands. Once inside the Laravel project folder, the commands executed successfully.
 
 <h1>Reflection</h1>
 
-Completing this laboratory activity gave me a better understanding of how a Laravel development environment is set up and how client-server technologies work together in web development. Before this activity, I was only familiar with the basic concepts of PHP and web development. By installing PHP, Composer, Laravel, Git, MySQL, and Visual Studio Code, I learned the purpose of each tool and how they work together to create and manage Laravel applications.
-
-During the installation process, I encountered several challenges, including the Laravel Installer command not being recognized, the missing PHP Zip extension, and a firewall issue that prevented access to the local development server. Although these problems were frustrating at first, troubleshooting them helped me improve my problem-solving skills. I learned the importance of reading error messages carefully, checking system configurations, and following the official documentation when resolving technical issues.
-
-Laravel is important in client-server development because it provides a structured framework for building secure, organized, and maintainable web applications. Its built-in features, such as routing, Blade templating, and Artisan commands, make the development process faster and more efficient. I also gained a better understanding of how a client sends requests to the server and how Laravel processes those requests before returning the appropriate response.
-
-Overall, this activity strengthened my confidence in setting up a professional development environment and using Git for version control. The knowledge and skills I gained will serve as a strong foundation for future Laravel projects and more advanced client-server applications throughout the semester.
+Completing the Week 2 laboratory activity gave me a better understanding of the overall process of preparing a professional Laravel development environment. Throughout the activity, I learned how to install and verify the required software, including PHP, Composer, Laravel, Git, MySQL, and Visual Studio Code. I also learned how these tools work together in client-server web development. Creating the Hello Laravel project allowed me to apply what I learned by creating and running a Laravel application, modifying its homepage, and displaying the required student information. I also gained experience with Git and GitHub by organizing the project, creating meaningful commits, preparing the README documentation, and uploading the necessary screenshots. One of the most challenging parts was troubleshooting installation and configuration problems, such as selecting the correct PHP installer and making commands work properly in the Command Prompt. These challenges taught me the importance of carefully following installation steps and properly configuring the development environment. Overall, this activity improved my technical skills, problem-solving abilities, and understanding of Laravel development. It also gave me a strong foundation for future client-server and Laravel projects, especially the larger projects that will follow throughout the course.
 
 <h1>References</h1>
 
@@ -247,4 +241,3 @@ Oracle. (2026). *MySQL documentation*. https://dev.mysql.com/doc/
 
 <h1>LinkedIn Portfolio Activity</h1>
 
-**https://lnkd.in/p/ge7G_94Y**
