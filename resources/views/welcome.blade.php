@@ -7,17 +7,15 @@
 </head>
 <body style="font-family: Arial, sans-serif; margin: 40px;">
 
-    <h1>Laravel Setup Test</h1>
-    <h2>Welcome</h2>
+    <h1>Hello Laravel!</h1>
+    <h2>Welcome to Client-Server Technologies.</h2>
+    <h4>Developed by: Ravien <h4>
 
     <hr>
 
     <p><strong>Student Name:</strong> Ravien C. Ongkiko</p>
-    <p><strong>Student Number:</strong> 0124-2610</p>
     <p><strong>Course:</strong> BS Information Technology</p>
     <p><strong>Section:</strong> BSIT-3B</p>
-    <p><strong>Subject:</strong> ITST 302 - Client-Server Technologies</p>
-    <p><strong>Current Date:</strong> {{ date('F d, Y') }}</p>
 
 </body>
 </html>
