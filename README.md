@@ -240,4 +240,4 @@ Microsoft. (2026). *Visual Studio Code documentation*. https://code.visualstudio
 Oracle. (2026). *MySQL documentation*. https://dev.mysql.com/doc/
 
 <h1>LinkedIn Portfolio Activity</h1>
-https://www.linkedin.com/posts/ongkiko-ravien-c-4a5462428_laravel-php-github-share-7491361522070388737-KOwQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGxHJj0BrQRPdqB4dC6EgvIZ40ucHLHSgEg
+https://www.linkedin.com/feed/update/urn:li:activity:7491361522884202496/
