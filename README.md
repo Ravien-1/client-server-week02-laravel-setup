@@ -155,18 +155,18 @@ Step 9:
 1. Modify the Homepage
 2. Edit the homepage of the Laravel application.
 3. Display the following information:
-4. Hello laravel!
-5. Welcome to Client-Server Technologies.
-6. Developed by:
-7. Student Name
-8. Course
-9. Section
+4. Student Name
+5. Student Number
+6. Course
+7. Section
+8. Subject
+9. Current Date
 10. Save the changes.
 11. Refresh the browser to verify the updated homepage.
 12. Capture a screenshot of the customized homepage.
 ```
 
-Screenshot: ![alt text](image-14.png)
+Screenshot: ![alt text](image-10.png)
 
 <h1>Project Structure</h1>
 

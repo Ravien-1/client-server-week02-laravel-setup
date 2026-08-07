@@ -13,9 +13,13 @@
 
     <hr>
 
-    <p><strong>Student Name:</strong> Ravien C. Ongkiko</p>
+      <p><strong>Student Name:</strong> Ravien C. Ongkiko</p>
+    <p><strong>Student Number:</strong> 0124-2610</p>
     <p><strong>Course:</strong> BS Information Technology</p>
-    <p><strong>Section:</strong> BSIT-3B</p>
+    <p><strong>Section:</strong> 3B</p>
+    <p><strong>Subject:</strong> ITST 302</p>
+    <p><strong>Current Date:</strong> August 6, 2026</p>
+
 
 </body>
 </html>
